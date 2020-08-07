@@ -5,7 +5,7 @@ import Portfolio from './components/Portfolio';
 import Nav from './components/Nav';
 import Header from './components/Header';
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <div>
       <Nav />

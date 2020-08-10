@@ -6,13 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // Components
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
-import Nav from './components/Nav';
+import NavComponent from './components/NavComponent';
 import Header from './components/Header';
 
 const App: React.FC = () => {
   return (
     <div>
-      <Nav />
+      <NavComponent />
       <Header />
       <Switch>
         <Route exact path="/">

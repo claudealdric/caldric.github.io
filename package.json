@@ -10,15 +10,17 @@
   "author": "caldric <cvaldric@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "cd client && yarn build",
+    "build": "tsc && cd client && yarn build",
     "install-client": "cd client && yarn install",
     "heroku-postbuild": "yarn install-client && yarn build",
-    "start": "node server.js",
+    "start": "node build/server.js",
     "client": "cd client && yarn start",
-    "dev": "concurrently -n 'server,client' -c 'red,green' 'nodemon server.js' 'yarn client'"
+    "dev": "concurrently -n 'server,client' -c 'red,green' 'nodemon build/server.js' 'yarn client'"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "@types/express": "^4.17.7",
+    "express": "^4.17.1",
+    "typescript": "^3.9.7"
   },
   "devDependencies": {
     "concurrently": "^5.3.0"

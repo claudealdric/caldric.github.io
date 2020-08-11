@@ -3,6 +3,7 @@ export interface Project {
   name: string;
   description: string;
   imgSrc: string;
+  github: string;
 }
 
 const projects: Project[] = [
@@ -12,6 +13,7 @@ const projects: Project[] = [
     description:
       'Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.',
     imgSrc: './covid_dashboard.png',
+    github: 'https://github.com/caldric/COVID-19',
   },
   {
     id: 2,
@@ -19,6 +21,7 @@ const projects: Project[] = [
     description:
       'Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.',
     imgSrc: './battleship.png',
+    github: 'https://github.com/caldric/battleship-client',
   },
   {
     id: 3,
@@ -26,6 +29,7 @@ const projects: Project[] = [
     description:
       'Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.',
     imgSrc: './pragmatic.png',
+    github: 'https://github.com/caldric/pragmatic',
   },
 ];
 

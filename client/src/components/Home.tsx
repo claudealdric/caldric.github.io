@@ -21,10 +21,7 @@ const Home: React.FC = () => {
         <Card.Body>
           <Card.Title>COVID-19 Dashboard</Card.Title>
           <Card.Text>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-            tempora eos labore culpa omnis, minima id deleniti ipsam, nemo
-            voluptates distinctio odio ut eaque eius non nam quia. Provident,
-            assumenda!
+            A short description here. Another short description here.
           </Card.Text>
         </Card.Body>
       </Card>
@@ -34,10 +31,7 @@ const Home: React.FC = () => {
         <Card.Body>
           <Card.Title>Battleship</Card.Title>
           <Card.Text>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-            tempora eos labore culpa omnis, minima id deleniti ipsam, nemo
-            voluptates distinctio odio ut eaque eius non nam quia. Provident,
-            assumenda!
+            A short description here. Another short description here.
           </Card.Text>
         </Card.Body>
       </Card>
@@ -47,10 +41,7 @@ const Home: React.FC = () => {
         <Card.Body>
           <Card.Title>Pragmatic</Card.Title>
           <Card.Text>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-            tempora eos labore culpa omnis, minima id deleniti ipsam, nemo
-            voluptates distinctio odio ut eaque eius non nam quia. Provident,
-            assumenda!
+            A short description here. Another short description here.
           </Card.Text>
         </Card.Body>
       </Card>

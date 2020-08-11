@@ -2,3 +2,8 @@
   width: 80px;
   height: 80px;
 }
+
+.card {
+  width: 24rem;
+  cursor: pointer;
+}

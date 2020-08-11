@@ -31,6 +31,14 @@ const projects: Project[] = [
     imgSrc: './pragmatic.png',
     github: 'https://github.com/caldric/pragmatic',
   },
+  {
+    id: 4,
+    name: 'Tic Tac Toe',
+    description:
+      'Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.',
+    imgSrc: './pragmatic.png',
+    github: 'https://github.com/caldric/tic-tac-toe',
+  },
 ];
 
 export { projects };

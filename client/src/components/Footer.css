@@ -1,3 +1,7 @@
+footer > hr {
+  margin-top: 5rem;
+}
+
 .contact-icons {
   width: 25px;
   height: 25px;

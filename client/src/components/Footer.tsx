@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="container">
+    <footer className="container-fluid">
       <hr />
       <p className="float-right">
         <a

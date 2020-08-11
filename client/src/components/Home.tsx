@@ -1,44 +1,13 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
 import './Home.css';
 import AboutMe from './AboutMe';
+import Projects from './Projects';
 
 const Home: React.FC = () => {
   return (
     <div>
       <AboutMe />
-
-      <h2>Portfolio</h2>
-
-      <Card>
-        <Card.Img variant="top" src="./covid_dashboard.png" />
-        <Card.Body>
-          <Card.Title>COVID-19 Dashboard</Card.Title>
-          <Card.Text>
-            A short description here. Another short description here.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-
-      <Card>
-        <Card.Img variant="top" src="./battleship.png" />
-        <Card.Body>
-          <Card.Title>Battleship</Card.Title>
-          <Card.Text>
-            A short description here. Another short description here.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-
-      <Card>
-        <Card.Img variant="top" src="./pragmatic.png" />
-        <Card.Body>
-          <Card.Title>Pragmatic</Card.Title>
-          <Card.Text>
-            A short description here. Another short description here.
-          </Card.Text>
-        </Card.Body>
-      </Card>
+      <Projects />
 
       <h2>Skills</h2>
       <ul>

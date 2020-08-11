@@ -6,7 +6,7 @@ import './App.css';
 
 // Components
 import Home from './components/Home';
-import Portfolio from './components/Portfolio';
+import Projects from './components/Projects';
 import NavComponent from './components/NavComponent';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -31,7 +31,7 @@ const App: React.FC = () => {
           <Home />
         </Route>
         <Route exact path="/portfolio">
-          <Portfolio />
+          <Projects />
         </Route>
       </Switch>
       <Footer />

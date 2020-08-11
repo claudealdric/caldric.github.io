@@ -4,12 +4,11 @@ import './Header.css';
 
 const Header: React.FC = () => {
   return (
-    <section className="jumbotron text-center header">
-      <div className="background-image"></div>
+    <header>
       <h1>Claude V. Aldric</h1>
       <p className="title">Software Engineer</p>
       <Button variant="primary">Download Resume</Button>
-    </section>
+    </header>
   );
 };
 

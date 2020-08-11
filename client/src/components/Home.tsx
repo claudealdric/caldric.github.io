@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from 'react-bootstrap/Card';
 import './Home.css';
 
 const Home: React.FC = () => {
@@ -12,6 +13,47 @@ const Home: React.FC = () => {
         and rebuild every idea or system I encounter while asking questions
         like, “What is important,” or “Can this be improved?”
       </p>
+
+      <h2>Portfolio</h2>
+
+      <Card>
+        <Card.Img variant="top" src="./covid_dashboard.png" />
+        <Card.Body>
+          <Card.Title>COVID-19 Dashboard</Card.Title>
+          <Card.Text>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+            tempora eos labore culpa omnis, minima id deleniti ipsam, nemo
+            voluptates distinctio odio ut eaque eius non nam quia. Provident,
+            assumenda!
+          </Card.Text>
+        </Card.Body>
+      </Card>
+
+      <Card>
+        <Card.Img variant="top" src="./battleship.png" />
+        <Card.Body>
+          <Card.Title>Battleship</Card.Title>
+          <Card.Text>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+            tempora eos labore culpa omnis, minima id deleniti ipsam, nemo
+            voluptates distinctio odio ut eaque eius non nam quia. Provident,
+            assumenda!
+          </Card.Text>
+        </Card.Body>
+      </Card>
+
+      <Card>
+        <Card.Img variant="top" src="./pragmatic.png" />
+        <Card.Body>
+          <Card.Title>Pragmatic</Card.Title>
+          <Card.Text>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+            tempora eos labore culpa omnis, minima id deleniti ipsam, nemo
+            voluptates distinctio odio ut eaque eius non nam quia. Provident,
+            assumenda!
+          </Card.Text>
+        </Card.Body>
+      </Card>
 
       <h2>Skills</h2>
       <ul>

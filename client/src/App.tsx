@@ -1,5 +1,5 @@
 // React & Bootstrap
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -12,9 +12,19 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
+  const [scrollY, setScrollY] = useState(0);
+
+  const handleScroll = () => {
+    setScrollY(window.scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <div>
-      {/* <NavComponent /> */}
+      {scrollY > 400 ? <NavComponent /> : null}
       <Header />
       <Switch>
         <Route exact path="/">

@@ -3,7 +3,7 @@ header {
     url('/mountain.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-attachment: fixed;
   height: 100vh;
   color: white;
@@ -11,6 +11,11 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: @iphone-screen) {
+    -webkit-background-size: cover;
+    background-attachment: scroll;
+  }
 }
 
 header > h1 {

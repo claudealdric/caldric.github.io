@@ -1,0 +1,13 @@
+#about-me {
+  background-color: white;
+}
+
+#about-me > .container {
+  max-width: 40em;
+}
+
+.personal-photo {
+  border-radius: 50%;
+  width: 300px;
+  margin-bottom: 40px;
+}

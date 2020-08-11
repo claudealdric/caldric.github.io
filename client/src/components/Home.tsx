@@ -1,18 +1,12 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import './Home.css';
+import AboutMe from './AboutMe';
 
 const Home: React.FC = () => {
   return (
     <div>
-      <h2>About Me</h2>
-      <img src="./me.png" alt="Claude Aldric" />
-      <p>
-        I am a lifelong learner who rapidly assimilates complex concepts and
-        strives for absolute excellence in my craft. I automatically deconstruct
-        and rebuild every idea or system I encounter while asking questions
-        like, “What is important,” or “Can this be improved?”
-      </p>
+      <AboutMe />
 
       <h2>Portfolio</h2>
 

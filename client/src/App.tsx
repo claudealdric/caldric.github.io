@@ -9,6 +9,7 @@ import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import NavComponent from './components/NavComponent';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
@@ -23,6 +24,7 @@ const App: React.FC = () => {
           <Portfolio />
         </Route>
       </Switch>
+      <Footer />
     </div>
   );
 };

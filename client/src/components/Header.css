@@ -1,7 +1,7 @@
 .header {
   background-image: url('/mountain.jpg');
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   height: 100vh;

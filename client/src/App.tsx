@@ -14,7 +14,7 @@ import Footer from './components/Footer';
 const App: React.FC = () => {
   return (
     <div>
-      <NavComponent />
+      {/* <NavComponent /> */}
       <Header />
       <Switch>
         <Route exact path="/">

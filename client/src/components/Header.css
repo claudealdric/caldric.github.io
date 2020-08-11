@@ -3,6 +3,24 @@
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: center;
+  background-attachment: fixed;
   height: 100vh;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header > h1 {
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.header > .title {
+  font-size: 2em;
+}
+
+.header > button {
+  margin-top: 1em;
 }

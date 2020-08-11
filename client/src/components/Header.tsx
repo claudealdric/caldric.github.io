@@ -7,7 +7,7 @@ const Header: React.FC = () => {
     <section className="jumbotron text-center header">
       <div className="background-image"></div>
       <h1>Claude V. Aldric</h1>
-      <p>Software Engineer</p>
+      <p className="title">Software Engineer</p>
       <Button variant="primary">Download Resume</Button>
     </section>
   );

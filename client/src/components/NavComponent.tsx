@@ -12,19 +12,13 @@ const NavComponent: React.FC = () => {
         </Navbar.Brand>
         <Nav className="ml-auto">
           <Nav.Link as={Link} to="#">
-            About Me
+            About
           </Nav.Link>
           <Nav.Link as={Link} to="#">
-            Resume
-          </Nav.Link>
-          <Nav.Link as={Link} to="#">
-            Toolset
-          </Nav.Link>
-          <Nav.Link as={Link} to="/portfolio">
             Portfolio
           </Nav.Link>
           <Nav.Link as={Link} to="#">
-            Contact
+            Skills
           </Nav.Link>
         </Nav>
       </Nav>

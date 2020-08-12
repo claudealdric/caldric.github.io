@@ -28,6 +28,13 @@ const Footer = () => {
             alt="LinkedIn contact icon"
           />
         </a>
+        <a
+          href="mailto:claude@aldric.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="contact-icons" src="./mail.svg" alt="Email icon" />
+        </a>
       </p>
       <p>© Copyright 2020 Claude Aldric. All rights reserved.</p>
     </footer>

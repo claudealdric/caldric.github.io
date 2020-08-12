@@ -7,3 +7,7 @@ footer > hr {
   height: 25px;
   margin: 0 5px;
 }
+
+.contact-icons:hover {
+  opacity: 0.5;
+}

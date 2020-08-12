@@ -1,0 +1,15 @@
+#navbar {
+  animation: slideIn 0.7s;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

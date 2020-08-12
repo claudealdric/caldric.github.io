@@ -30,9 +30,6 @@ const App: React.FC = () => {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route exact path="/portfolio">
-          <Projects />
-        </Route>
       </Switch>
       <Footer />
     </div>

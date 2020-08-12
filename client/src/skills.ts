@@ -22,6 +22,11 @@ const skills: Skills[] = [
   },
   {
     id: 4,
+    name: 'CSS3',
+    imgSrc: './css3.svg',
+  },
+  {
+    id: 4,
     name: 'Python',
     imgSrc: './python.svg',
   },
@@ -56,6 +61,16 @@ const skills: Skills[] = [
     imgSrc: './react.svg',
   },
   {
+    id: 10,
+    name: 'Yarn',
+    imgSrc: './yarn.svg',
+  },
+  {
+    id: 11,
+    name: 'NPM',
+    imgSrc: './npm.svg',
+  },
+  {
     id: 11,
     name: 'jQuery',
     imgSrc: './jquery.svg',
@@ -74,6 +89,21 @@ const skills: Skills[] = [
     id: 14,
     name: 'GitHub',
     imgSrc: './github.svg',
+  },
+  {
+    id: 14,
+    name: 'Heroku',
+    imgSrc: './heroku.svg',
+  },
+  {
+    id: 14,
+    name: 'Slack',
+    imgSrc: './slack.svg',
+  },
+  {
+    id: 15,
+    name: 'VSCode',
+    imgSrc: './vscode.svg',
   },
   {
     id: 15,

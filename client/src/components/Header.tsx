@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Header: React.FC = () => {
@@ -7,7 +7,14 @@ const Header: React.FC = () => {
     <header>
       <h1 className="text-center">Claude V. Aldric</h1>
       <p className="title">Software Engineer</p>
-      <Button variant="primary">Download Resume</Button>
+      <Link
+        className="btn btn-info"
+        to="./resume_aldric_claude.pdf"
+        target="_blank"
+        download
+      >
+        Download Resume
+      </Link>
     </header>
   );
 };

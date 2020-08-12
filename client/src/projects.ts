@@ -11,7 +11,7 @@ const projects: Project[] = [
     id: 1,
     name: 'COVID-19 Dashboard',
     description:
-      'Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.',
+      'A responsive U.S. COVID-19 dashboard showing the total confirmed SARS-CoV-2 infected cases and deaths; total confirmed and deaths by state; U.S. choropleth map timeline from February to the most recent day; and an SIR (Susceptible-Infected-Recovered) mathematical model and fit. The website was built using HTML, CSS, JavaScript, and jQuery; the data was obtained through external APIs; and the SIR model was built using Python, NumPy, Pandas, and SciPy.',
     imgSrc: './covid_dashboard.png',
     github: 'https://github.com/caldric/COVID-19',
   },
@@ -19,7 +19,7 @@ const projects: Project[] = [
     id: 2,
     name: 'Battleship',
     description:
-      'Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.',
+      'Battleship is a clone of the strategy game of the same name built with the MERN (MongoDB, Express.js, React.js, Node.js) stack and Bootstrap with two other collaborators. Our team adopted the Agile Scrum framework with Jira where I served as the Product Owner.',
     imgSrc: './battleship.png',
     github: 'https://github.com/caldric/battleship-client',
   },
@@ -27,7 +27,7 @@ const projects: Project[] = [
     id: 3,
     name: 'Pragmatic',
     description:
-      'Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.',
+      'Pragmatic is an agile project management app modeled after Jira and made with the following technologies: Node.js, Express.js, EJS (Embedded JavaScript), jQuery, MongoDB, CSS, Bootstrap, and Heroku.',
     imgSrc: './pragmatic.png',
     github: 'https://github.com/caldric/pragmatic',
   },
@@ -35,7 +35,7 @@ const projects: Project[] = [
     id: 4,
     name: 'Tic Tac Toe',
     description:
-      'Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.',
+      'A Tic Tac Toe clone made with HTML, CSS, JavaScript, and jQuery.',
     imgSrc: './pragmatic.png',
     github: 'https://github.com/caldric/tic-tac-toe',
   },

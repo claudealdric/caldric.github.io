@@ -4,7 +4,7 @@ import './Header.css';
 
 const Header: React.FC = () => {
   return (
-    <header>
+    <header id="top">
       <h1 className="text-center">Claude V. Aldric</h1>
       <p className="title">Software Engineer</p>
       <Link

@@ -73,6 +73,10 @@ const skills: Skills[] = [
     imgSrc: './github.svg',
   },
   {
+    name: 'AWS',
+    imgSrc: './aws.svg',
+  },
+  {
     name: 'Heroku',
     imgSrc: './heroku.svg',
   },

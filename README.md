@@ -2,4 +2,4 @@
 
 ## Links
 
-- [Live site deployed in Heroku](https://safe-tor-32281.herokuapp.com/)
+- [Live site deployed in AWS S3](http://portfolio-aldric-claude.s3-website.us-east-2.amazonaws.com/)

@@ -2,4 +2,4 @@
 
 ## Links
 
-- [Live site on GitHub pages](https://caldric.github.io/)
+- [Live site on custom domain](http://claudealdri.ch/)

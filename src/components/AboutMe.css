@@ -2,12 +2,23 @@
   background-color: white;
 }
 
-#about-me > .container {
-  max-width: 40em;
-}
-
 .personal-photo {
   border-radius: 50%;
-  width: 300px;
-  margin-bottom: 40px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.brand-statement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 0 3em;
+}
+
+@media (max-width: 767px) {
+  .brand-statement {
+    align-items: center;
+    margin-top: 40px;
+  }
 }

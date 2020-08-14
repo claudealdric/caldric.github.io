@@ -6,7 +6,6 @@ import './App.css';
 
 // Components
 import Home from './components/Home';
-import Projects from './components/Projects';
 import NavComponent from './components/NavComponent';
 import Header from './components/Header';
 import Footer from './components/Footer';

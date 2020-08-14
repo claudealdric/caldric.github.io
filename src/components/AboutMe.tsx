@@ -21,7 +21,7 @@ const AboutMe: React.FC = () => {
             <Fade bottom>
               <h2>About Me</h2>
               <p className="lead text-muted">
-                I am a lifelong learner who rapidly assimilates complex concepts
+                I'm a lifelong learner who rapidly assimilates complex concepts
                 and strives for absolute excellence in my craft. I automatically
                 deconstruct and rebuild every idea or system I encounter while
                 asking questions like, “What is important,” or “Can this be

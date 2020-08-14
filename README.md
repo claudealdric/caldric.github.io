@@ -2,4 +2,4 @@
 
 ## Links
 
-- [Live site on custom domain](http://claudealdri.ch/)
+- [Live site on custom domain]('https://www.aldric.dev/')

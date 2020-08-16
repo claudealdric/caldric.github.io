@@ -9,7 +9,7 @@ const AboutMe: React.FC = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-4 photo-section">
-            <Fade bottom distance={'20%'}>
+            <Fade bottom distance={'15%'}>
               <img
                 src="./me.png"
                 alt="Claude Aldric"

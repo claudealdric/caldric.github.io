@@ -5,3 +5,21 @@
 .project-preview {
   width: 100%;
 }
+
+.external-links {
+  margin-bottom: 1rem;
+}
+
+.external-links > a {
+  margin-right: 0.5rem;
+}
+
+.button-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-content > img {
+  margin-right: 0.3em;
+}

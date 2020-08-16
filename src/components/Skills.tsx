@@ -10,7 +10,10 @@ const Skills = () => {
         <h2 className="text-center mb-5">Tools</h2>
         <div className="row">
           {skills.map((skill) => (
-            <div className="col-lg-2 col-md-3 col-sm-4 skill" key={skill.name}>
+            <div
+              className="col-lg-2 col-md-3 col-sm-4 col-6 skill"
+              key={skill.name}
+            >
               <img className="skill-img" src={skill.imgSrc} alt={skill.name} />
               <p className="text-muted">{skill.name}</p>
             </div>

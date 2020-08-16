@@ -19,6 +19,7 @@
 @media (max-width: 767px) {
   .brand-statement {
     align-items: center;
+    text-align: center;
     margin-top: 40px;
     padding: 0;
   }

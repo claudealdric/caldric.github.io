@@ -1,5 +1,3 @@
 # Portfolio
 
-## Links
-
-- [Live site on custom domain](https://www.aldric.dev/)
+My personal [portfolio website](https://www.aldric.dev/) built using React, TypeScript, and Bootstrap.

@@ -18,9 +18,8 @@ const Header: React.FC = () => {
           className="btn btn-info"
           to="./resume_aldric_claude.pdf"
           target="_blank"
-          download
         >
-          Download Resume
+          Resume
         </Link>
       </Fade>
     </header>

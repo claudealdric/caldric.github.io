@@ -8,6 +8,14 @@ export interface Project {
 
 const projects: Project[] = [
   {
+    name: 'Unify',
+    description:
+      'Unify is a responsive full-stack web application that can transform a string list of food recipe ingredients into a unified shopping list where similar ingredients are combined and categorized. It is built primarily with the MERN (MongoDB Atlas, Express.js, React.js, Node.js) stack and it is deployed on Amazon EC2 (AWS).',
+    imgSrc: './unify.png',
+    github: 'https://github.com/caldric/unify',
+    link: 'http://ec2-18-220-198-68.us-east-2.compute.amazonaws.com/',
+  },
+  {
     name: 'COVID-19 Dashboard',
     description:
       'A responsive U.S. COVID-19 dashboard showing the total confirmed SARS-CoV-2 infected cases and deaths; total confirmed and deaths by state; U.S. choropleth map timeline from February to the most recent day; and an SIR (Susceptible-Infected-Recovered) mathematical model and fit. The website was built using HTML, CSS, JavaScript, and jQuery; the data was obtained through external APIs; and the SIR model was built using Python, NumPy, Pandas, and SciPy.',

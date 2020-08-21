@@ -23,3 +23,8 @@
 .button-content > img {
   margin-right: 0.3em;
 }
+
+.projects-header {
+  text-align: center;
+  margin-bottom: 5rem;
+}

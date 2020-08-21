@@ -35,7 +35,7 @@ const projects: Project[] = [
     name: 'Tic Tac Toe',
     description:
       'A Tic Tac Toe clone made with HTML, CSS, JavaScript, and jQuery.',
-    imgSrc: './pragmatic.png',
+    imgSrc: './tictactoe.png',
     github: 'https://github.com/caldric/tic-tac-toe',
     link: 'https://caldric.github.io/tic-tac-toe/',
   },

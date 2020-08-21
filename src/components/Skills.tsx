@@ -9,7 +9,7 @@ const Skills = () => {
     <div id="tools" className="album">
       <div className="container">
         <Fade bottom>
-          <h2 className="text-center mb-5">Tools</h2>
+          <h2 className="text-center mb-5">Tools & Technologies</h2>
         </Fade>
         <div className="row">
           <Fade bottom>

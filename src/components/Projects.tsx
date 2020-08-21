@@ -10,6 +10,7 @@ const Projects: React.FC = () => {
     <div id="projects">
       <div className="container">
         <hr className="featurette-divider" />
+        <h2 className="projects-header">Projects</h2>
         {projects.map((project, index) => (
           <div className="project" key={project.name}>
             <div className="row featurette">

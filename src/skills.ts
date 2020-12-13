@@ -49,6 +49,10 @@ const skills: Skills[] = [
     imgSrc: './react.svg',
   },
   {
+    name: 'Redux',
+    imgSrc: './redux.svg',
+  },
+  {
     name: 'Yarn',
     imgSrc: './yarn.svg',
   },

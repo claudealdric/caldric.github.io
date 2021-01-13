@@ -93,6 +93,14 @@ const skills: Skills[] = [
     imgSrc: './vscode.svg',
   },
   {
+    name: 'Linux',
+    imgSrc: './linux.svg',
+  },
+  {
+    name: 'Ubuntu',
+    imgSrc: './ubuntu.svg',
+  },
+  {
     name: 'Vim',
     imgSrc: './vim.svg',
   },

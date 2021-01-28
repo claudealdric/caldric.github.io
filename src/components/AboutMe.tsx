@@ -11,7 +11,7 @@ const AboutMe: React.FC = () => {
           <div className="col-md-4 photo-section">
             <Fade bottom distance={'15%'}>
               <img
-                src="./me.png"
+                src="./me.jpg"
                 alt="Claude Aldric"
                 className="personal-photo"
               />

@@ -8,16 +8,7 @@ const AboutMe: React.FC = () => {
     <section className="jumbotron text-center" id="about-me">
       <div className="container">
         <div className="row">
-          <div className="col-md-4 photo-section">
-            <Fade bottom distance={'15%'}>
-              <img
-                src="./me.jpg"
-                alt="Claude Aldric"
-                className="personal-photo"
-              />
-            </Fade>
-          </div>
-          <div className="col-md-8 brand-statement">
+          <div className="col-md-12 brand-statement">
             <Fade bottom>
               <h2>About Me</h2>
               <p className="lead text-muted">

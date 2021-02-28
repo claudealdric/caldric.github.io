@@ -2,12 +2,6 @@
   background-color: white;
 }
 
-.personal-photo {
-  border-radius: 50%;
-  width: 100%;
-  max-width: 300px;
-}
-
 .brand-statement {
   display: flex;
   flex-direction: column;
@@ -16,10 +10,12 @@
   padding: 0 3em;
 }
 
+.brand-statement > h2 {
+  text-align: center;
+}
+
 @media (max-width: 767px) {
   .brand-statement {
-    align-items: center;
-    text-align: center;
     margin-top: 40px;
     padding: 0;
   }
